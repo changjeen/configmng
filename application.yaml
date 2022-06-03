@@ -19,8 +19,8 @@ spring:
   rabbitmq:
     host: ${mq_host:localhost}
     port: ${mq_port:5672}
-    username: ${mq_id:guest}
-    password: ${mq_pw:guest}
+    username: ${mq_id:admin}
+    password: ${mq_pw:admin}
 
 management:
   security: 
